@@ -1,7 +1,78 @@
 /* Our CSS file. */
 
 
-.container, .content {
+#container, #content {
 width: 100%;
 height: 100%;
+background-color: #979c9c;
+}
+.card{
+    height: 80%;
+    width:100%;
+    
+    display: flex;
+    
+}
+
+
+.imgtop{
+height: 350px;
+background-color: darksalmon;
+width: 267px;
+margin-left: 20px;
+margin-top: 40px;
+margin-bottom: 10px;
+
+
+
+}
+.imgbottom{
+    height: 350px;
+    background-color: darksalmon;
+    width: 267px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+   
+}
+.righttop{
+    height: 350px;
+    width: 1150px;
+    text-align: left;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.rightbottom{
+    height: 350px;
+    width: 1150px;
+    text-align: left;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.righttop h1,.rightbottom h1{
+    font-size: 50px;
+    margin-left: 50px;
+    
+}
+.righttop p,.rightbottom p{
+    color:black;
+    font-size: 20px;
+    font-style: initial;
+    margin-left: 50px;
+    text-indent: 0px;
+    
+}
+.righttop a,.rightbottom a{
+    color: ivory;
+    margin-left: 50px;
+    border: 2px solid green;
+    border-radius: 999px;
+    font-size: 20px;
+    text-align: left;
+    color: #000;
+    background-color: chartreuse;
+    text-decoration: none;
+
 }
